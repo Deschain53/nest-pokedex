@@ -16,7 +16,7 @@ import { EnvConfiguration } from './config/env.config';
   }),
 
   ServeStaticModule.forRoot({
-  rootPath: join(__dirname,'..','public'),
+  rootPath: join(__dirname,'...','public'),
   }),
 
   MongooseModule.forRoot( process.env.MONGODB, {
